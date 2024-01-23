@@ -20,6 +20,7 @@
 		51F01F3F2B5F5C2B0048595B /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F3E2B5F5C2B0048595B /* CreateThreadView.swift */; };
 		51F01F432B5F5C750048595B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F422B5F5C750048595B /* ActivityView.swift */; };
 		51F01F472B5F63E60048595B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F462B5F63E60048595B /* ProfileView.swift */; };
+		51F01F492B5F65DA0048595B /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F482B5F65DA0048595B /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		51F01F3E2B5F5C2B0048595B /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		51F01F422B5F5C750048595B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		51F01F462B5F63E60048595B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		51F01F482B5F65DA0048595B /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				51F01F362B5F5AFF0048595B /* FeedView.swift */,
+				51F01F482B5F65DA0048595B /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				51F01F372B5F5AFF0048595B /* FeedView.swift in Sources */,
 				51C1E7BC2B5F418A00D36BBA /* LoginView.swift in Sources */,
 				51C1E7A72B5F409F00D36BBA /* ContentView.swift in Sources */,
+				51F01F492B5F65DA0048595B /* ThreadCell.swift in Sources */,
 				51F01F432B5F5C750048595B /* ActivityView.swift in Sources */,
 				51F01F3F2B5F5C2B0048595B /* CreateThreadView.swift in Sources */,
 				51F01F332B5F55900048595B /* ThreadsTabView.swift in Sources */,
