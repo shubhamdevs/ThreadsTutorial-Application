@@ -15,6 +15,11 @@
 		51F01F2D2B5F4A0A0048595B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F2C2B5F4A0A0048595B /* RegistrationView.swift */; };
 		51F01F302B5F511B0048595B /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F2F2B5F511B0048595B /* ViewModifier.swift */; };
 		51F01F332B5F55900048595B /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F322B5F55900048595B /* ThreadsTabView.swift */; };
+		51F01F372B5F5AFF0048595B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F362B5F5AFF0048595B /* FeedView.swift */; };
+		51F01F3B2B5F5BB50048595B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F3A2B5F5BB50048595B /* ExploreView.swift */; };
+		51F01F3F2B5F5C2B0048595B /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F3E2B5F5C2B0048595B /* CreateThreadView.swift */; };
+		51F01F432B5F5C750048595B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F422B5F5C750048595B /* ActivityView.swift */; };
+		51F01F472B5F63E60048595B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F01F462B5F63E60048595B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		51F01F2C2B5F4A0A0048595B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		51F01F2F2B5F511B0048595B /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		51F01F322B5F55900048595B /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
+		51F01F362B5F5AFF0048595B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		51F01F3A2B5F5BB50048595B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		51F01F3E2B5F5C2B0048595B /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
+		51F01F422B5F5C750048595B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		51F01F462B5F63E60048595B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +121,13 @@
 		51C1E7B62B5F40FE00D36BBA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				51F01F402B5F5C550048595B /* Activity */,
 				51C1E7B92B5F415200D36BBA /* Authentication */,
+				51F01F382B5F5B9D0048595B /* Explore */,
+				51F01F342B5F5ADB0048595B /* Feed */,
+				51F01F442B5F63D00048595B /* Profile */,
 				51C1E7B82B5F415000D36BBA /* Root */,
+				51F01F3C2B5F5C090048595B /* ThreadsCreation */,
 				51F01F312B5F55490048595B /* TabBar */,
 			);
 			path = Core;
@@ -165,6 +180,86 @@
 				51F01F322B5F55900048595B /* ThreadsTabView.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		51F01F342B5F5ADB0048595B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F352B5F5AEA0048595B /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		51F01F352B5F5AEA0048595B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F362B5F5AFF0048595B /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51F01F382B5F5B9D0048595B /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F392B5F5BA40048595B /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		51F01F392B5F5BA40048595B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F3A2B5F5BB50048595B /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51F01F3C2B5F5C090048595B /* ThreadsCreation */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F3D2B5F5C130048595B /* View */,
+			);
+			path = ThreadsCreation;
+			sourceTree = "<group>";
+		};
+		51F01F3D2B5F5C130048595B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F3E2B5F5C2B0048595B /* CreateThreadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51F01F402B5F5C550048595B /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F412B5F5C620048595B /* View */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		51F01F412B5F5C620048595B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F422B5F5C750048595B /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51F01F442B5F63D00048595B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F452B5F63D60048595B /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		51F01F452B5F63D60048595B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F01F462B5F63E60048595B /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,11 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F01F372B5F5AFF0048595B /* FeedView.swift in Sources */,
 				51C1E7BC2B5F418A00D36BBA /* LoginView.swift in Sources */,
 				51C1E7A72B5F409F00D36BBA /* ContentView.swift in Sources */,
+				51F01F432B5F5C750048595B /* ActivityView.swift in Sources */,
+				51F01F3F2B5F5C2B0048595B /* CreateThreadView.swift in Sources */,
 				51F01F332B5F55900048595B /* ThreadsTabView.swift in Sources */,
 				51C1E7A52B5F409F00D36BBA /* ThreadsTutorial_ApplicationApp.swift in Sources */,
 				51F01F302B5F511B0048595B /* ViewModifier.swift in Sources */,
+				51F01F3B2B5F5BB50048595B /* ExploreView.swift in Sources */,
+				51F01F472B5F63E60048595B /* ProfileView.swift in Sources */,
 				51F01F2D2B5F4A0A0048595B /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
