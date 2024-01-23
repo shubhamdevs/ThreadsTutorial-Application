@@ -17,7 +17,7 @@ struct LoginView: View {
             VStack {
                 Spacer()
                 
-                Image("threads-app-icon")
+                    Image("threads-app-icon")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 120, height: 120)
@@ -26,18 +26,12 @@ struct LoginView: View {
                 
                 VStack {
                     TextField("Enter your email", text: $email)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .keyboardType(.emailAddress)
+                        .textInputAutocapitalization(.never)
+                        .modifier(ThreadsTextFieldModifier())
                     
                     SecureField("Enter your password", text: $password)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(ThreadsTextFieldModifier())
                 }
                 
                 NavigationLink {
@@ -76,6 +70,7 @@ struct LoginView: View {
                         Text("Don't have an account?")
                         
                         Text("Sign Up")
+                            .fontWeight(.semibold)
                     }
                     .foregroundStyle(.black)
                     .font(.footnote)
