@@ -11,6 +11,7 @@
 		51C1E7A72B5F409F00D36BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1E7A62B5F409F00D36BBA /* ContentView.swift */; };
 		51C1E7A92B5F40A100D36BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C1E7A82B5F40A100D36BBA /* Assets.xcassets */; };
 		51C1E7AC2B5F40A100D36BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C1E7AB2B5F40A100D36BBA /* Preview Assets.xcassets */; };
+		51C1E7BC2B5F418A00D36BBA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1E7BB2B5F418A00D36BBA /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		51C1E7A62B5F409F00D36BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51C1E7A82B5F40A100D36BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C1E7AB2B5F40A100D36BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51C1E7BB2B5F418A00D36BBA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		51C1E7A32B5F409F00D36BBA /* ThreadsTutorial Application */ = {
 			isa = PBXGroup;
 			children = (
-				51C1E7A42B5F409F00D36BBA /* ThreadsTutorial_ApplicationApp.swift */,
-				51C1E7A62B5F409F00D36BBA /* ContentView.swift */,
+				51C1E7B72B5F410200D36BBA /* App */,
+				51C1E7B62B5F40FE00D36BBA /* Core */,
+				51C1E7B52B5F40FC00D36BBA /* Extension */,
+				51C1E7B42B5F40F900D36BBA /* Model */,
+				51C1E7B32B5F40F600D36BBA /* Services */,
+				51C1E7B22B5F40F300D36BBA /* Utils */,
 				51C1E7A82B5F40A100D36BBA /* Assets.xcassets */,
 				51C1E7AA2B5F40A100D36BBA /* Preview Content */,
 			);
@@ -65,6 +71,75 @@
 				51C1E7AB2B5F40A100D36BBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51C1E7B22B5F40F300D36BBA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		51C1E7B32B5F40F600D36BBA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		51C1E7B42B5F40F900D36BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51C1E7B52B5F40FC00D36BBA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		51C1E7B62B5F40FE00D36BBA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				51C1E7B92B5F415200D36BBA /* Authentication */,
+				51C1E7B82B5F415000D36BBA /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		51C1E7B72B5F410200D36BBA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				51C1E7A42B5F409F00D36BBA /* ThreadsTutorial_ApplicationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		51C1E7B82B5F415000D36BBA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				51C1E7A62B5F409F00D36BBA /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		51C1E7B92B5F415200D36BBA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				51C1E7BA2B5F416F00D36BBA /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		51C1E7BA2B5F416F00D36BBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51C1E7BB2B5F418A00D36BBA /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C1E7BC2B5F418A00D36BBA /* LoginView.swift in Sources */,
 				51C1E7A72B5F409F00D36BBA /* ContentView.swift in Sources */,
 				51C1E7A52B5F409F00D36BBA /* ThreadsTutorial_ApplicationApp.swift in Sources */,
 			);
